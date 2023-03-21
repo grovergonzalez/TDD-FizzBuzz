@@ -23,4 +23,10 @@ describe("FizzBuzz", () => {
       expect(FizzBuzz(6)).toEqual("Fizz");
     });
 });
+
+describe("FizzBuzz", () => {
+    it("deberia retornar Buzz con 5", () => {
+      expect(FizzBuzz(5)).toEqual("Buzz");
+    });
+});
   
