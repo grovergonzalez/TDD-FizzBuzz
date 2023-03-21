@@ -1,4 +1,4 @@
-import FizzBuzz from "./FizzBuzz";
+import { VerificarFizzBuzz, FizzBuzz } from "./FizzBuzz";
 
 describe("FizzBuzz", () => {
   it("deberia retornar 1", () => {
@@ -41,4 +41,10 @@ describe("FizzBuzz", () => {
       expect(FizzBuzz(15)).toEqual("FizzBuzz");
     });
 });
+
+describe("FizzBuzz", () => {
+    it("deberia retonar todo lo correspondiente con un array", () => {
+        expect(VerificarFizzBuzz(10)).toEqual("1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz");
+    });
+})
   

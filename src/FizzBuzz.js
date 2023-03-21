@@ -14,4 +14,17 @@ function FizzBuzz(num){
     return num;
 };
 
-export default FizzBuzz;
+function VerificarFizzBuzz(num){
+    let Resp = "";
+    for (let i = 1; i < num + 1; i++) 
+    {
+        Resp += FizzBuzz(i);
+        if (i < num) 
+        {
+            Resp += ", ";
+        }
+    }   
+    return Resp;
+}
+
+export {VerificarFizzBuzz, FizzBuzz};
