@@ -1,7 +1,7 @@
 import FizzBuzz from "./FizzBuzz";
 
-describe("Sumar", () => {
-  it("deberia sumar dos numeros", () => {
-    expect(sumar(3, 2)).toEqual(5);
+describe("FizzBuzz", () => {
+  it("deberia retornar 1", () => {
+    expect(FizzBuzz(1)).toEqual(5);
   });
 });
