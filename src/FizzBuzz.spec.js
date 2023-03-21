@@ -5,3 +5,10 @@ describe("FizzBuzz", () => {
     expect(FizzBuzz(1)).toEqual(1);
   });
 });
+
+describe("FizzBuzz", () => {
+    it("deberia retornar FizzBuzz", () => {
+      expect(FizzBuzz(3)).toEqual("FizzBuzz");
+    });
+  });
+  
