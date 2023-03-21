@@ -29,9 +29,16 @@ describe("FizzBuzz", () => {
       expect(FizzBuzz(5)).toEqual("Buzz");
     });
 });
+
 describe("FizzBuzz", () => {
     it("deberia retornar Buzz con multiplo de 5", () => {
       expect(FizzBuzz(10)).toEqual("Buzz");
+    });
+});
+
+describe("FizzBuzz", () => {
+    it("deberia retornar FizzBuzz con multiplo de 3 y 5", () => {
+      expect(FizzBuzz(15)).toEqual("FizzBuzz");
     });
 });
   
